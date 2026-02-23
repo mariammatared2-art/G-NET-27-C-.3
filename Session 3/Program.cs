@@ -141,6 +141,21 @@
             // Output: 0
 
             #endregion
+
+            #region QUESTION 14
+            //14.Compare results and explain each result :
+
+            //string? s = null;
+            // A
+            // int a = int.Parse(s);
+            // B
+            //int b = Convert.ToInt32(s);
+            //Console.WriteLine(b);
+
+
+            // A: Throws ArgumentNullException because int.Parse cannot accept null.
+            // B: Prints 0 because Convert.ToInt32 returns the default value for null strings.
+            #endregion
         }
     }
 }
