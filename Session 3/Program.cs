@@ -43,6 +43,14 @@
             // Why: int.Parse expects only numeric characters; "a" is invalid.
 
             #endregion
+
+            #region QUESTION 5
+            /*5. Complete the code from the previous question so it prints
+            Invalid if conversion into int fails, otherwise prints the number*/
+            // string s = "12a";
+            // if (int.TryParse(s, out int result)) Console.WriteLine(result);
+            // else Console.WriteLine("Invalid");
+            #endregion
         }
     }
 }
