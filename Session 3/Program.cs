@@ -15,6 +15,17 @@
             //     Explanation: Casting a double to an int.
 
             #endregion
+
+            #region QUESTION 2
+            //2. This code doesn’t compile. Fix it with the smallest change?
+            // int n = 5;
+            // double d2 = n / 2;
+            // Console.WriteLine(d2);
+
+            // int n = 5;
+            // double d2 = n / 2.0;
+            // Console.WriteLine(d2);
+            #endregion
         }
     }
 }
