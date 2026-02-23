@@ -77,7 +77,16 @@
             // Console.WriteLine(x);
             #endregion
 
+            #region QUESTION 8
+            // 8. Fix this to avoid exceptions and print -1 if conversion isn’t possible ?
+            // object o = 10;
+            // long x = o;
+            // Console.WriteLine(x);
 
+            // object o = 10;
+            // long x = o is int i ? i : -1;
+            // Console.WriteLine(x);
+            #endregion
         }
     }
 }
