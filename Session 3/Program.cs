@@ -62,6 +62,22 @@
             // Why: This is unboxing. The object 'o' holds an int, it is cast back to an int, 
             // and then 1 is added to the value.
             #endregion
+
+            #region QUESTION 7
+            //7. What will this print and explain why and if there is a problem handle it ?
+            //object o = 10;
+            //long x = (long)o;
+            //Console.WriteLine(x);
+
+            // Result: InvalidCastException.
+            // Why: Unboxing requires the exact type stored (int). You cannot unbox an int directly to a long.
+
+            // object o = 10;
+            // long x = (long)(int)o;
+            // Console.WriteLine(x);
+            #endregion
+
+
         }
     }
 }
