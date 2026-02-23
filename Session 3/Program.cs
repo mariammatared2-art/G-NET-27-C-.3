@@ -97,6 +97,16 @@
             // Why: The null-conditional operator (?.) sees 'name' is null and stops, returning null instead of throwing a NullReferenceException.
 
             #endregion
+
+            #region QUESTION 10
+            //10.What will this print and explain the process?
+            // string? name = null;
+            // int length = name?.Length ?? 0
+
+            // Output: 0
+            // Process: name?.Length returns null. The null-coalescing operator (??) checks the left side, finds it null, and returns the right side (0).
+
+            #endregion
         }
     }
 }
