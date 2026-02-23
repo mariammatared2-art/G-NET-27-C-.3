@@ -120,6 +120,17 @@
             //int x = Convert.ToInt32(s);
             //Console.WriteLine(x);
             #endregion
+
+            #region QUESTION 12
+            //12. What happens here and if there is a problem, handle it
+            //string? s = null;
+            //Console.WriteLine(s!.Length);
+
+            // Problem: NullReferenceException. The "!" (null-forgiving operator) tells the compiler you know better, but at runtime, s is still null.
+            // Handle: Use the null-conditional operator.
+            //  string? s = null;
+            // Console.WriteLine(s ?.Length);
+            #endregion
         }
     }
 }
