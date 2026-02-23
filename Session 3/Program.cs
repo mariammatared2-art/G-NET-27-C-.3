@@ -107,6 +107,19 @@
             // Process: name?.Length returns null. The null-coalescing operator (??) checks the left side, finds it null, and returns the right side (0).
 
             #endregion
+
+            #region QUESTION 11
+            //11. What’s wrong with this “safe” code and how can we solve it ?
+            //string? s = null;
+            //int x = int.Parse(s ?? "0");
+            //Console.WriteLine(x);
+
+            // Problem: int.Parse(null) throws an ArgumentNullException. 
+            // Solve: Use Convert.ToInt32(s) or provide a default string "0".
+            //string? s = null;
+            //int x = Convert.ToInt32(s);
+            //Console.WriteLine(x);
+            #endregion
         }
     }
 }
