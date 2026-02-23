@@ -51,6 +51,17 @@
             // if (int.TryParse(s, out int result)) Console.WriteLine(result);
             // else Console.WriteLine("Invalid");
             #endregion
+
+            #region QUESTION 6
+            //6. What will this print and explain why ?
+            // object o = 10;
+            // int a = (int)o;
+            // Console.WriteLine(a + 1);
+
+            // Output: 11
+            // Why: This is unboxing. The object 'o' holds an int, it is cast back to an int, 
+            // and then 1 is added to the value.
+            #endregion
         }
     }
 }
