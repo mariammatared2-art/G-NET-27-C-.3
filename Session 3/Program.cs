@@ -131,6 +131,16 @@
             //  string? s = null;
             // Console.WriteLine(s ?.Length);
             #endregion
+
+            #region QUESTION 13
+            //13.What will this print?
+            //string? s = null;
+            //int x = Convert.ToInt32(s);
+            //Console.WriteLine(x);
+
+            // Output: 0
+
+            #endregion
         }
     }
 }
