@@ -156,6 +156,14 @@
             // A: Throws ArgumentNullException because int.Parse cannot accept null.
             // B: Prints 0 because Convert.ToInt32 returns the default value for null strings.
             #endregion
+
+            #region QUESTION 15
+            //15. Complete the line to print "Guest" when user is null, otherwise print the user name in uppercase:
+            //string? user = null;
+
+            // string? user = null;
+            //  Console.WriteLine(user?.ToUpper() ?? "Guest");
+            #endregion
         }
     }
 }
