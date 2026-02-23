@@ -87,6 +87,16 @@
             // long x = o is int i ? i : -1;
             // Console.WriteLine(x);
             #endregion
+
+            #region QUESTION 9
+            //9. What will this print and explain why ?
+            //string? name = null;
+            //Console.WriteLine(name?.Length);
+
+            // Output: (Null)
+            // Why: The null-conditional operator (?.) sees 'name' is null and stops, returning null instead of throwing a NullReferenceException.
+
+            #endregion
         }
     }
 }
