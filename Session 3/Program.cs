@@ -32,6 +32,17 @@
 
             //  int age = int.Parse(Console.ReadLine());
             #endregion
+
+            #region QUESTION 4
+            //4. What happens here and why?
+            //string s = "12a";
+            // int x = int.Parse(s);
+            // Console.WriteLine(x);
+
+            // Result: FormatException (Runtime Error).
+            // Why: int.Parse expects only numeric characters; "a" is invalid.
+
+            #endregion
         }
     }
 }
